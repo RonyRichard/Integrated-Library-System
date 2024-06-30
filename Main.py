@@ -99,7 +99,7 @@ def menu():
         print("3. Edit Balance")
         print("4. Exit")
         choice = input("Enter choice: ")
-        if choice == '1':
+        if choice == '1 ':
             create_account()
         elif choice == '2':
             see_account_information()
